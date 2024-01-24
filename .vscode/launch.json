@@ -1,0 +1,52 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:test-dd}",
+      "name": "Debug test-dd",
+      "program": "${workspaceFolder:test-dd}/.build/debug/test-dd",
+      "preLaunchTask": "swift: Build Debug test-dd"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:test-dd}",
+      "name": "Release test-dd",
+      "program": "${workspaceFolder:test-dd}/.build/release/test-dd",
+      "preLaunchTask": "swift: Build Release test-dd"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:test-dd}",
+      "name": "Debug testDD",
+      "program": "${workspaceFolder:test-dd}/.build/debug/testDD",
+      "preLaunchTask": "swift: Build Debug testDD"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:test-dd}",
+      "name": "Release testDD",
+      "program": "${workspaceFolder:test-dd}/.build/release/testDD",
+      "preLaunchTask": "swift: Build Release testDD"
+    }
+  ]
+}
